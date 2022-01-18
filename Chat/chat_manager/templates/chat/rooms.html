@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'chat/css/nuroom.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../static/chat/css/rooms.css">
+    <!-- <script src="{% static 'chat/js/<имя скрипта>.js' %}"></script> -->
+    <title>Список комнат</title>
+</head>
+<body>
+<section>
+    {% for elem in links %}
+    <a href="/room/{{ elem.id }}">{{ elem.name }}</a>
+    {% endfor %}
+</section>
+</body>
+</html>

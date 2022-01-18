@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Mulish&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+body section form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+    border: #e0e0e0 solid 2px;
+    box-shadow: 5px 5px 5px #c0c0c0;
+
+}
+
+body section form p {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+    margin-top: 15px;
+}
+
+body section form p label {
+    margin-left: 5px;
+}
+
+body section form p input {
+    margin-top: 5px;
+    outline: none;
+    border: unset;
+    border: #e0e0e0 solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+body section form input[type="submit"] {
+    margin-top: 15px;
+    border: unset;
+    padding: unset;
+    height: 30px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    border: #e0e0e0 solid 1px;
+    cursor: pointer;
+}
